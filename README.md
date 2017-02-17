@@ -1,10 +1,4 @@
----
-title: All of the Documentation
-permalink: /readme
-layout: docs
-category: ignore
-breadcrumb: readme
----
+## List of reference
 
 {% for doc in site.docs %}
 
