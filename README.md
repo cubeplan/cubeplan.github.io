@@ -1,3 +1,19 @@
+---
+title: All of the Documentation
+permalink: /readme
+layout: docs
+category: ignore
+breadcrumb: readme
+---
+
+{% for doc in site.docs %}
+
+{{ doc.content }}
+
+<hr>
+
+{% endfor %}
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/cubeplan/cubeplan.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
